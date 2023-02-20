@@ -1,4 +1,5 @@
 package test;
+//Auto
 public class Auto {
 	String modelo,marca;
 	int registro,precio,cantidadCreada;
