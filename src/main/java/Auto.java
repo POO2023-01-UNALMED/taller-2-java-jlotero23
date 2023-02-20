@@ -16,7 +16,7 @@ public class Auto {
 	String verificarIntegridad() {
 		String mensaje="Las piezas no son originales";
 		if (this.registro==motor.registro) {
-			mensaje="Auto Original";
+			mensaje="Auto original";
 			for (Asiento asiento: this.asientos) {
 				if (asiento!=null) {
 					if(asiento.registro!=this.registro) {
